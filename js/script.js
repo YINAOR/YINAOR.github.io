@@ -604,25 +604,25 @@ function elasticText() {
 }())
 
 /* 网站运行时间 */
-function setTime(a) {
-	const mydate = new Date(),
-		now = Date.parse(mydate.toLocaleDateString()),
-		start = Date.parse(a),
-		day = (now - start) / 1000 / 86400,
-		myHours = mydate.getHours(),
-		myMinutes =
-			parseInt(mydate.getMinutes()) < 10
-				? `0${mydate.getMinutes()}`
-				: mydate.getMinutes(),
-		mySeconds =
-			parseInt(mydate.getSeconds()) < 10
-				? `0${mydate.getSeconds()}`
-				: mydate.getSeconds()
-	if (!isNaN(day)) {
-		RunTime.innerHTML = `网站已运行：${day}天 ${myHours}小时 ${myMinutes}分 ${mySeconds}秒 `
-	}
-	return false
-}
+// function setTime(a) {
+// 	const mydate = new Date(),
+// 		now = Date.parse(mydate.toLocaleDateString()),
+// 		start = Date.parse(a),
+// 		day = (now - start) / 1000 / 86400,
+// 		myHours = mydate.getHours(),
+// 		myMinutes =
+// 			parseInt(mydate.getMinutes()) < 10
+// 				? `0${mydate.getMinutes()}`
+// 				: mydate.getMinutes(),
+// 		mySeconds =
+// 			parseInt(mydate.getSeconds()) < 10
+// 				? `0${mydate.getSeconds()}`
+// 				: mydate.getSeconds()
+// 	if (!isNaN(day)) {
+// 		RunTime.innerHTML = `网站已运行：${day}天 ${myHours}小时 ${myMinutes}分 ${mySeconds}秒 `
+// 	}
+// 	return false
+// }
 
 /* 一言的调用 */
 let countFail = 0

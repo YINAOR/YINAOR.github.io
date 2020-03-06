@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>yinaor-blog</title>
+  <title>YINAOR</title>
   
-  <subtitle>my-blog</subtitle>
+  <subtitle>一个吃番茄的菜鸟</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yinaor.github.io/"/>
-  <updated>2020-03-04T01:52:38.949Z</updated>
+  <updated>2020-03-05T02:21:32.818Z</updated>
   <id>https://yinaor.github.io/</id>
   
   <author>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown教程</title>
+    <link href="https://yinaor.github.io/posts/c079e252/"/>
+    <id>https://yinaor.github.io/posts/c079e252/</id>
+    <published>2020-03-05T02:19:36.000Z</published>
+    <updated>2020-03-05T02:21:32.818Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="参考菜鸟教程"><a href="#参考菜鸟教程" class="headerlink" title="参考菜鸟教程"></a>参考菜鸟教程</h1><p><a href="https://www.runoob.com/markdown" target="_blank" rel="noopener">https://www.runoob.com/markdown</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;参考菜鸟教程&quot;&gt;&lt;a href=&quot;#参考菜鸟教程&quot; class=&quot;headerlink&quot; title=&quot;参考菜鸟教程&quot;&gt;&lt;/a&gt;参考菜鸟教程&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.runoob.com/markdown&quot; target=&quot;_bla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://yinaor.github.io/2020/03/03/hello-world/"/>
-    <id>https://yinaor.github.io/2020/03/03/hello-world/</id>
+    <link href="https://yinaor.github.io/posts/16107/"/>
+    <id>https://yinaor.github.io/posts/16107/</id>
     <published>2020-03-03T09:21:19.798Z</published>
     <updated>2020-03-04T01:52:38.949Z</updated>
     

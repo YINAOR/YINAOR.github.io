@@ -674,7 +674,7 @@
 		e.preventDefault()
 	}
 
-	searchIco.addEventListener(even, function() {
+	searchIco && searchIco.addEventListener(even, function() {
 		searchWrap.classList.toggle('in')
 		keyInput.value = ''
 		if (searchWrap.classList.contains('in')) {
@@ -684,7 +684,7 @@
 		}
 	})
 
-	back.addEventListener(even, function() {
+	back && back.addEventListener(even, function() {
 		searchWrap.classList.remove('in')
 		Control.hide()
 	})
@@ -695,6 +695,6 @@
 		}
 	})
 
-	keyInput.addEventListener('input', search)
-	keyInput.addEventListener(even, search)
+	keyInput && keyInput.addEventListener('input', search)
+	keyInput && keyInput.addEventListener(even, search)
 }.call(this))
